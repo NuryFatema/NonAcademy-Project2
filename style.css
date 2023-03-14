@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #023a84;
+    width: 25rem;
+    height:20rem;
+    position: relative;
+    margin: 10rem auto;
+}
+
+.circle{ /* circle css */
+    background: rgb(148, 145, 245);
+    width: 15rem;
+    height: 15rem;
+    top: 2.5rem ;
+    left: 4rem;
+    position: absolute;
+    border-radius: 50%;
+    
+}
+/* =================Flower design Start ===================*/
+.petal{
+    background:rgb(148, 145, 245);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 5rem 0 ;
+    position: absolute;
+    top:10rem  auto;
+    border: 22px solid #023a84;
+}
+
+.petal1{
+    top: 1.5rem;
+    right: 2.15rem;
+    transform: rotate(5deg);
+}
+
+.petal2{
+    top: 1.5rem;
+    left: 2.15rem;
+    padding-right: .4rem;
+    transform: rotate(-92deg);
+}
+.petal3{
+    right: 2.15rem;
+    bottom: 1.8rem;
+    transform: rotate(267deg);
+}
+
+.petal4{
+    left: 2.15rem;
+    bottom: 1.8rem;
+    transform: rotate(365deg);
+}
+/* =================Flower design End ===================*/
